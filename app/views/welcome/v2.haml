@@ -1,30 +1,23 @@
-%section.top
-  %h1.title The Right Alphabet
-  %h2.subtitle Speak the same language.
-.parallax-window{ data: { parallax: 'scroll', 'image-src' => image_url('background2.jpg'), 'position-y' => 'top' }}
-%section.middle
-  %h1.bold We do Interior Design
-%section.contact
-  %p For all enquiries :
-  %table
-    %tr
-      %td
-        = image_tag('laura3.png', alt: 'Laura Boyadjian', id: 'laura')
-      %td
-        %br/
-        %br/
-        %strong Laura Boyadjian
-        .email laura@therightalphabet.com
-      %td
-        %br/
-        %br/
-        %strong Or our team:
-        .email contact@therightalphabet.com
-  .adress
-    The Right Alphabet
-    %br/
-    1 Roland gardens SW73PE
-    %br/
-    London, Chelsea, UK
-.parallax-window{ data: { parallax: 'scroll', 'image-src' => image_url('background2.jpg'), 'position-y' => 'bottom' }}
-.parallax-window.small{ data: { parallax: 'scroll', 'image-src' => image_url('background3.jpg') }}
+#fullpage
+  %section#firstPage.section
+    .top.logo
+      %span.title.bold CARPENTERS
+      %span.subtitle WORKSHOP
+      %span.subtitle ARCHITECTURES
+  %section#secondPage.section
+    .bottom-left.logo
+      %span.title.bold CARPENTERS
+      %span.subtitle WORKSHOP
+      %span.subtitle ARCHITECTURES
+    .adress
+      %p
+        %span.bold LONDON
+        6 ALBEMARLE STREET / W1S 4BY
+      %p
+        %span.bold PARIS
+        64 RUE DE LA VERRERIE / 75004
+      %p
+        %span.bold NEW YORK
+        693 FIFTH AVENUE / NY 10022
+      %p
+        = mail_to('contact@carpentersworkshoparchitectures.com', 'carpentersworkshoparchitectures', class: 'email')
