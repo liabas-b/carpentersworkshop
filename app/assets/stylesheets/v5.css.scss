@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  color: black;
+}
+
+.fp-tableCell {
+  vertical-align: middle;
+}
+h1 {
+  font-size: 2em;
+}
+.top {
+  width: 500px;
+  margin: 0 auto;
+}
+.top h1 {
+  text-align: left;
+}
+.top h2 {
+  text-align: right;
+  font-weight: 100;
+}
+
+section {
+  text-align: center;
+}
+
+.contact table {
+  width: 50%;
+  min-width: 400px;
+  margin: 0 auto;
+  td {
+    text-align: left;
+    vertical-align: top;
+  }
+}
+
+.bold {
+  font-size: 50pt;
+  font-weight: bold;
+}
+
+.contact {
+}
+
+.adress {
+  padding: 4em 0 4em 0;
+  text-align: center;
+  font-family: Open sans;
+  color: black;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+.email {
+  font-family: arial;
+  color: black;
+  font-size: 2em;
+}
+
+#down {
+  position: absolute;
+  bottom: 2em;
+  left: 0;
+  right: 0;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #333;
+  margin: 0 auto;
+}

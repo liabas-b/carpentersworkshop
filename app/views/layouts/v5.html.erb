@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Right Alphabet</title>
+    <meta name="description" content="Speak the same language. Interrior design by Laura Boyadjian."></meta>
+    <meta name="keywords" content="interrior, design, right, alphabet, laura, boyadjian">
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'v5', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'jquery.fullPage', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    '//fonts.googleapis.com/css?family=Open+Sans', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    '//fonts.googleapis.com/css?family=Playfair+Display', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
