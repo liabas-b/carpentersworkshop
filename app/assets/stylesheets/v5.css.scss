@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Open sans';
+  font-family: 'Open Sans', sans-serif;
   color: black;
 }
 
@@ -15,8 +15,7 @@ h1 {
   font-size: 2em;
 }
 .top {
-  width: 800px;
-  margin: 0 auto;
+  margin-left: 1em;
 }
 .top h1 {
   text-align: left;
@@ -27,7 +26,7 @@ h1 {
 }
 
 section {
-  text-align: center;
+  text-align: left;
 }
 
 .contact table {
@@ -50,16 +49,20 @@ section {
 .adress {
   width: 330px;
   margin: 0 auto;
-  font-family: Open sans;
   color: black;
 }
 .adress p {
   text-align: left;
 }
+.bottom-left img {
+  margin-top: 3em;
+}
 .bottom-left {
   position: absolute;
-  left: 1em;
-  bottom: 0.5em;
+  left: 1.5em;
+  bottom: 1em;
+  font-size: 11pt;
+  letter-spacing: -1px;
 }
 
 .title {
@@ -69,6 +72,7 @@ section {
 }
 
 .email {
+  text-decoration: none;
 }
 
 #down {
