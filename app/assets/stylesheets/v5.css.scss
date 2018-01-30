@@ -1,7 +1,11 @@
 body {
   margin: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open sans';
   color: black;
+}
+
+.logo {
+  font-size: 21pt;
 }
 
 .fp-tableCell {
@@ -11,7 +15,7 @@ h1 {
   font-size: 2em;
 }
 .top {
-  width: 500px;
+  width: 700px;
   margin: 0 auto;
 }
 .top h1 {
@@ -37,7 +41,6 @@ section {
 }
 
 .bold {
-  font-size: 50pt;
   font-weight: bold;
 }
 
@@ -45,20 +48,27 @@ section {
 }
 
 .adress {
-  padding: 4em 0 4em 0;
-  text-align: center;
+  width: 330px;
+  margin: 0 auto;
   font-family: Open sans;
   color: black;
 }
+.adress p {
+  text-align: left;
+}
+.bottom-left {
+  position: absolute;
+  left: 1em;
+  bottom: 0.5em;
+}
 
+.title {
+}
 .subtitle {
-  font-style: italic;
+  padding-left: -3px;
 }
 
 .email {
-  font-family: arial;
-  color: black;
-  font-size: 2em;
 }
 
 #down {

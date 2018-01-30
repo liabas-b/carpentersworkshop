@@ -1,13 +1,29 @@
 #fullpage
   %section#firstPage.section
-    .top
-      %h1.title The Right Alphabet
-      %h2.subtitle Speak the same language.
+    .top.logo
+      = image_tag('logo.png')
+      / %span.title.bold CARPENTERS
+      / %span.subtitle WORKSHOP
+      / %span.subtitle ARCHITECTURES
   %section#secondPage.section
-    %h1 For all enquiries:
-    .contact
-      .email contact@therightalphabet.com
-    .contact
-      .adress
-        The Right Alphabet - 1 Roland Gardens SW73PE London UK - +447825163159
+    .bottom-left.logo
+      = image_tag('logo.png')
+      / %span.title.bold CARPENTERS
+      / %span.subtitle WORKSHOP
+      / %span.subtitle ARCHITECTURES
+    .adress
       %p
+        %span.bold LONDON
+        6 ALBEMARLE STREET / W1S 4BY
+      %p
+        %span.bold PARIS
+        64 RUE DE LA VERRERIE / 75004
+      %p
+        %span.bold NEW YORK
+        693 FIFTH AVENUE / NY 10022
+      %p
+        = mail_to('contact@carpentersworkshoparchitectures.com', 'carpentersworkshoparchitectures', class: 'email')
+    / %h1 For all enquiries:
+    / .contact
+    /   .email contact@therightalphabet.com
+    / .contact
